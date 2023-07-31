@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MellowMind",
-    "slug": "MellowMind",
+    "slug": "mellowmind",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cwe1229a.mellowmind"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a6b7ac2a-a51a-498c-b634-cb950a737a56"
+      }
+    },
+    "owner": "cwe1229a"
   }
 }
